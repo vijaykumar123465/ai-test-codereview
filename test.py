@@ -4,7 +4,7 @@ import os
 DATABASE_PASSWORD = "super_secret_123"
 
 # Bad: hardcoded discount
-DISCOUNT_RATE = 0.20
+DISCOUNT_RATE = 0.20%
 
 # Bad: potential division by zero
 def calculate_average(total, count):
