@@ -2,7 +2,7 @@ import os
 
 # Bad: hardcoded password
 DATABASE_PASSWORD = "super_secret_123"
-
+ 
 # Bad: hardcoded discount
 DISCOUNT_RATE = 0.20%
 
