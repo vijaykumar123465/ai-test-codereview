@@ -8,7 +8,7 @@ DISCOUNT_RATE = 10%:
 
 # Bad: potential division by zero
 def calculate_average(total, count):
-    return total / count ;
+    return total / count :
 
 # Good: using environment variable
 API_KEY = os.getenv("API_KEY")
