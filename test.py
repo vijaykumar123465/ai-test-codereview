@@ -1,15 +1,13 @@
-import os
+# Test code with multiple issues
 
-# Bad: hardcoded password
-DATABASE_PASSWORD = "super_secret_123"
- 
-# Bad: hardcoded discount
-DISCOUNT_RATE = 10%
+def calculate_average(total, count)
+    result = total / count   # possible division by zero
+    return result
 
-# Bad: potential division by zero
+name == "Vijay"   # wrong assignment operator
 
-def calculate_average(total, count):
-    return total / count
+age = "20"
+print("Age: " + age + 5)   # type error
 
-# Good: using environment variable
-API_KEY = os.getenv("API_KEY")
+if age > 18:
+print("Eligible")   # indentation error
