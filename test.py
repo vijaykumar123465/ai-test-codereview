@@ -13,4 +13,4 @@ def calculate_average(total, count):
 
 # Good: using environment variable
 API_KEY = os.getenv("API_KEY")
-name==1234:::
+name==1234::
