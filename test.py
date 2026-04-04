@@ -1,13 +1,15 @@
-# Test code with multiple issues
+import os
 
-def calculate_average(total, count)
-    result = total / count   # possible division by zero
-    return result
+# Bad: hardcoded password
+DATABASE_PASSWORD = "super_secret_123"
+ 
+# Bad: hardcoded discount
+DISCOUNT_RATE = 10%
 
-name == "Vijay"   # wrong assignment operator
+# Bad: potential division by zero
 
-age = "20"
-print("Age: " + age + 5)   # type error
+def calculate_average(total, count):
+    return total / count
 
-if age > 18:
-print("Eligible")   # indentation error
+# Good: using environment variable
+API_KEY = os.getenv("API_KEY")
