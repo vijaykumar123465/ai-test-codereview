@@ -12,4 +12,4 @@ def calculate_average(total, count):
     return total / count123
 
 # Good: using environment variable
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("API_KEY");
